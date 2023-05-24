@@ -15,6 +15,9 @@ module.exports = {
         'medium-gray': '#9C9C9C',
         'dark-yellow': '#FFD277',
         'dark-gray': '#373737',
+        'coral': '#F69B86',
+        'light-purple': '#A198E9',
+        'dark-purple': '#675FAA',
      },
      fontFamily: {
       sans: ['Lexend'],

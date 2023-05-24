@@ -1,13 +1,14 @@
 import Navbar from "../components/Navbar";
 import Image from "../components/Image";
 import { useRouter } from 'next/router';
+import Button from '../components/Button';
 
 export default function Home() {
   const router = useRouter();
   return (
     <div >
     <Navbar />
-      <div class="max-w-[60%] md:max-w-[30%] mx-auto">
+      <div class="max-w-[40%] md:max-w-[30%] mx-auto">
         <Image src="/logos/wordmark-color.png" alt="C3forMe" />
       </div>
       <div class="text-medium-gray font-sans font-normal text-sm lg:text-base text-justify max-w-[80%] md:max-w-[50%] mx-auto">
@@ -28,7 +29,21 @@ export default function Home() {
           <span class="text-green-700">Login</span>
         </button>
       </div>
-      
+
+      <div className="flex flex-col items-center justify-center mb-4">
+      <ul>
+        <li>
+          <Button src='/logos/indep-circle.png' alt="Independent Living" text="Independent Living" backgroundColor='#F69B86'/>
+        </li>
+        <li>
+          <Button src='/logos/edu-circle.png' alt="Education & Employment" text="Education & Employment" backgroundColor='#FFD277'/>
+        </li>
+        <li>
+          <Button src='/logos/self-circle.png' alt="Self Determination" text="Self Determination" backgroundColor='#A198E9'/>
+        </li>
+      </ul>
+    </div>
+
     </div>
   )
 }

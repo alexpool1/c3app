@@ -1,3 +1,4 @@
+import Navbar from "../components/Navbar";
 import Image from "../components/Image";
 import { useRouter } from 'next/router';
 
@@ -5,6 +6,7 @@ export default function Home() {
   const router = useRouter();
   return (
     <div >
+    <Navbar />
       <div class="max-w-[60%] md:max-w-[30%] mx-auto">
         <Image src="/logos/wordmark-color.png" alt="C3forMe" />
       </div>

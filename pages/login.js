@@ -8,7 +8,7 @@ function login() {
     
     <div>
     <FirstNavbar />
-      <div class="max-w-[30%] md:max-w-[15%] mx-auto mt-4">
+      <div class="max-w-[15%] mx-auto mt-4">
         <Image src="/logos/cards-logo.png" alt="C3forMe" />
       </div>
       <div class="max-w-[60%] mx-auto font-sans font-medium text-3xl text-dark-green my-5">
@@ -43,6 +43,12 @@ function login() {
           <span class="text-gray-800">New to C3forMe? </span>
           <span class="text-green-700">Create an account</span>
         </button>
+      </div>
+      <div class="flex justify-center my-4">
+        <button className=" text-medium-gray font-sans font-normal text-md py-2 px-4 border-none mb-4"
+            onClick={() => { router.push("/signup"); }}>
+            Forgot your password?
+            </button>
       </div>
     </div>
   )

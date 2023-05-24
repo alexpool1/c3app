@@ -17,7 +17,7 @@ function signup() {
   return (
     <div>
     <FirstNavbar />
-      <div class="max-w-[30%] md:max-w-[15%] mx-auto mt-4">
+      <div class="max-w-[15%] mx-auto mt-4">
         <Image src="/logos/cards-logo.png" alt="C3forMe" />
       </div>
       <div class="max-w-[60%] mx-auto font-sans my-5 flex">

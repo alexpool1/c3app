@@ -19,6 +19,11 @@ module.exports = {
         'coral': '#F69B86',
         'light-purple': '#A198E9',
         'dark-purple': '#675FAA',
+        'toned-blue': '#69A1CD',
+        'red': '#D64A51',
+        'light-green': '#94C14C',
+        'teal': '#56AE91',
+
      },
      fontFamily: {
       sans: ['Lexend'],

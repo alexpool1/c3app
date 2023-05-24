@@ -24,7 +24,7 @@ const Navbar = () => {
         <Image src="/logos/nav-logo.png" alt="C3forMe Logo" />
       </div>
 
-      <ul className="hidden min-[870px]:flex space-x-8 mr-4">
+      <ul className="hidden min-[1000px]:flex space-x-8 mr-4">
         <li className="mr-4 cursor-pointer" onClick={() => handleNavLinkClick("/dashboard")}>
           Dashboard
         </li>
@@ -79,7 +79,7 @@ const Navbar = () => {
       )}
 
       <button
-        className="hamburger min-[870px]:hidden focus:outline-none text-2xl mr-4"
+        className="hamburger min-[1000px]:hidden focus:outline-none text-2xl mr-4"
         onClick={handleMobileMenuToggle}
       >
         <i className="fas fa-bars"></i>
